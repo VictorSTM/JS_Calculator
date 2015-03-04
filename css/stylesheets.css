@@ -1,0 +1,315 @@
+
+body {
+    background-image:url(dibujocalculadora.jpg);
+    background-repeat:no-repeat;
+}
+#btn0 {	
+       background-image:url('bpr.jpeg');
+       height:32px;
+       width:45px;
+    	position:absolute;
+		top: 511px;
+		left: 61px;
+}
+#btn1 {	
+       background-image:url('bpr.jpeg');
+       height:32px;
+       width:40px;
+    	position:absolute;
+		top: 464px;
+		left: 59px;
+}
+#btn2 {	
+       background-image:url('bpr.jpeg');
+       height:32px;
+       width:40px;
+    	position:absolute;
+		top: 464px;
+		left: 123px;
+}
+#btn3 {	
+       background-image:url('bpr.jpeg');
+       height:32px;
+       width:40px;
+    	position:absolute;
+		top: 464px;
+		left: 181px;
+}
+#btn4 {	
+       background-image:url('bpr.jpeg');
+       height:32px;
+       width:40px;
+    	position:absolute;
+		top: 416px;
+		left: 59px;
+}
+#btn5 {	
+       background-image:url('bpr.jpeg');
+       height:32px;
+       width:40px;
+    	position:absolute;
+		top: 416px;
+		left: 123px;
+}
+#btn6 {
+    	background-image:url('bpr.jpeg');
+    	height:32px;
+       width:40px;
+    	position:absolute;
+		top: 416px;
+		left: 180px;
+}
+#btn7 {
+     	background-image:url('bpr.jpeg');
+       height:32px;
+       width:40px;
+    	position:absolute;
+		top: 368px;
+		left: 59px;
+}
+#btn8 {	
+       background-image:url('bpr.jpeg');
+       height:32px;
+       width:40px;
+    	position:absolute;
+		top: 368px;
+		left: 123px;
+}
+#btn9 {	
+       background-image:url('bpr.jpeg');
+       height:32px;
+       width:40px;
+    	position:absolute;
+		top: 368px;
+		left: 180px;
+}
+#btns {	
+       background-image:url('papelblanco.jpeg');
+       height:32px;
+       width:40px;
+    	position:absolute;
+		top: 464px;
+		left: 236px;
+}
+#btni {
+       background-image:url('papelito.jpeg');
+	   height:79px;
+       width:40px;
+    	position:absolute;
+		top: 464px;
+		left: 300px;
+       color:black;
+       font-size:120%;
+}
+#btnm {	
+       background-image:url('papelblanco.jpeg');
+       height:32px;
+       width:40px;
+    	position:absolute;
+		top: 368px;
+		left: 237px;
+}
+#btnd {
+       background-image:url('papelblanco.jpeg');
+       height:32px;
+       width:40px;
+    	position:absolute;
+		top: 368px;
+		left: 300px;
+}
+#btnr {
+       background-image:url('papelblanco.jpeg');
+       height:32px;
+       width:40px;
+    	position:absolute;
+		top: 416px;
+		left: 236px;
+}
+#btnp {
+       background-image:url('papelblanco.jpeg');
+       height:32px;
+       width:40px;
+       position:absolute;
+		top: 321px;
+		left: 180px;
+}
+#btnq {
+       background-image:url('papelblanco.jpeg');
+       height:32px;
+       width:40px;
+       position:absolute;
+		top: 321px;
+		left: 237px;
+}
+#btnpo {
+       background-image:url('papelblanco.jpeg');
+       height:32px;
+       width:40px;
+       position:absolute;
+		top: 321px;
+		left: 300px;
+}
+#btnclr{	
+       background-image:url('papelito.jpeg');
+       height:32px;
+       width:40px;
+    	position:absolute;
+		top: 416px;
+		left: 300px;
+}
+#txt1 {
+      border:2px;
+      height:30px;
+      width:299px;
+      background-image:url('bpr.jpeg');
+      text-align:top;
+      position:absolute;
+      top:104px;
+      left:47px;
+      font-size:150%;
+      color:blue;
+}
+#txt2 {
+      border:2px;
+      height:30px;
+      width:299px;
+      background-image:url('bpr1.jpeg');
+      background-position:top;
+      text-align:top;
+      position:absolute;
+      top:170px;
+      left:47px;
+      color:green;
+      font-size:150%;
+      direction:rtl;
+}
+#btnsen {
+       background-image:url('papelazul1.jpeg');
+       height:24px;
+       width:40px;
+       position:absolute;
+       top: 282px;
+		left: 59px;
+		color:white;
+		text-align:center;
+}
+#btncos {
+       background-image:url('papelazul1.jpeg');
+       height:24px;
+       width:40px;
+       position:absolute;
+       top: 282px;
+		left: 123px;
+		color:white;
+		text-align:center;
+}
+#btntan {
+       background-image:url('papelazul1.jpeg');
+       height:24px;
+       width:40px;
+       position:absolute;
+       top: 282px;
+		left: 181px;
+		color:white;
+}
+#btnarcsen {
+       background-image:url('papelazul1.jpeg');
+       height:24px;
+       width:40px;
+       position:absolute;
+       top: 282px;
+		left: 59px;
+		color:white;
+		text-align:center;
+}
+#btnarccos {
+       background-image:url('papelazul1.jpeg');
+       height:24px;
+       width:40px;
+       position:absolute;
+       top: 282px;
+		left: 123px;
+		color:white;
+		text-align:center;
+}
+#btnarctan {
+       background-image:url('papelazul1.jpeg');
+       height:24px;
+       width:40px;
+       position:absolute;
+       top: 282px;
+		left: 181px;
+		color:white;
+}
+#btnshift {
+       background-image:url('papelsepia.jpeg');
+       height:24px;
+       width:41px;
+       position:absolute;
+       top: 282px;
+		left: 236px;
+		color:black;
+}
+#btno {
+       background-image:url('bpr.jpeg');
+       height:32px;
+       width:40px;
+    	position:absolute;
+		top: 511px;
+		left: 123px;
+}
+#btn√ {
+       background-image:url('papelblanco.jpeg');
+       height:32px;
+       width:40px;
+    	position:absolute;
+		top: 511px;
+		left: 236px;
+}
+#casio {
+       
+       position:absolute;
+       top:37px;
+       left:159px;
+}
+#btncambio {
+       background-image:url('papelsepia.jpeg');
+       height:24px;
+       width:41px;
+       position:absolute;
+       top: 282px;
+		left: 300px;
+       color:black;
+}
+#img {
+      position:absolute;
+      top:104px;
+      left:47px;
+      height:100px;
+      width:301px;
+}
+#btnln {
+         background-image:url('papelblanco.jpeg');
+         height:32px;
+         width:40px;
+         position:absolute;
+		 top: 321px;
+		 left: 123px; 
+		 
+}
+#btnE {
+background-image:url('papelblanco.jpeg');
+         height:32px;
+         width:40px;
+         position:absolute;
+		 top: 321px;
+		 left: 59px; 
+}
+#btnpo2 {
+       background-image:url('bpr.jpeg');
+       height:32px;
+       width:40px;
+    	position:absolute;
+		top: 511px;
+		left: 181px;
+}

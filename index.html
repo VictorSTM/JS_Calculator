@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Calculadora casera</title>
+	<link type="text/css" rel="stylesheet" href="css/stylesheets.css">
+	<script type="text/javascript" src="js/scripts.js"></script>
+</head>
+<body>
+	<h3 id="casio">CADMIO</h3>
+	<img id="img"; src='css/bpr.jpeg';></img>
+	<p></p>
+	
+	<form action="#">
+		<input type="text" readonly="readonly" id="txt1" value="" />
+		<input type="text" readonly="readonly" id="txt2" value="" />
+		<button id="btno" onclick="calcula('.')">.</button>
+		<button id="btn0" onclick="calcula('0')">0</button>
+		<button id="btn1" onclick="calcula('1')">1</button>
+		<button id="btn2" onclick="calcula('2')">2</button>
+		<button id="btn3" onclick="calcula('3')">3</button>
+		<button id="btn4" onclick="calcula('4')">4</button>
+		<button id="btn5" onclick="calcula('5')">5</button>
+		<button id="btn6" onclick="calcula('6')">6</button>
+		<button id="btn7" onclick="calcula('7')">7</button>
+		<button id="btn8" onclick="calcula('8')">8</button>
+		<button id="btn9" onclick="calcula('9')">9</button>
+		<button id="btnd" onclick="calcula('/')">/</button>
+		<button id="btnm" onclick="calcula('*')">*</button>
+		<button id="btnr" onclick="calcula('-')">-</button>
+		<button id="btns" onclick="calcula('+')">+</button>
+		<button id="btni" onclick="calcula('=')">=</button>
+		<button id="btnclr" onclick="calcula('')">Cl</button>
+		<button id="btnsen" onclick="calcula('arcsin')">asin</button>
+		<button id="btncos" onclick="calcula('arccos')">acos</button>
+		<button id="btntan" onclick="calcula('arctan')">atan</button>
+		<button id="btnarcsen"  onclick="calcula('sin')">sin</button>
+		<button id="btnarccos" onclick="calcula('cos')">cos</button>
+		<button id="btnarctan" onclick="calcula('tan')">tan</button>
+		<button id="btn√" onclick="calcula('√')">√</button>
+		<button id="btnln" onclick="calcula('ln')">ln</button>
+		<button id="btnp" onclick="calcula('(')">(</button>
+		<button id="btnq" onclick="calcula(')')">)</button>
+		<button id="btnpo" onclick="calcula('^')">^</button>
+		<button id="btncambio" onclick="cambioModo()">Rad</button>
+		<button id="btnshift" value="defecto()"onclick="mostrararc()">shift</button>
+		<button id="btnE" onclick="calcula('E')">E^x</button>
+		<button id="btnpo2" onclick="calcula('^2')">^2</button>
+	</form>
+	
+
+</body>
+</html>
